@@ -43,7 +43,7 @@ export default async function ProtectedPage() {
     }
 
     return (
-        <div className='flex-1 container mx-auto p-4 flex flex-col justify-center items-center relative bg-background text-foreground'>
+        <div className='flex-1 container mx-auto p-4 flex flex-col pt-10 md:pt-0 justify-start md:justify-center items-center relative bg-background text-foreground'>
             <div className=' px-8 pt-6 pb-8 mb-4 w-full md:max-w-[550px] z-10 rounded-lg border bg-card text-card-foreground shadow-sm '>
                 <h2 className='text-xl font-semibold mb-2'>User Information</h2>
                 <div className='space-y-6'>
